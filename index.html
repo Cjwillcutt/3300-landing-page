@@ -1,11 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Willcutt | Business Analytics & Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+
+  <header>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="hero" aria-label="Introduction">
+      <div class="hero-inner">
+        <img src="Images/Image1.jpg" alt="Professional headshot of Chris Willcutt" class="profile-photo">
+        <div class="hero-text">
+          <h1>Chris Willcutt</h1>
+          <p class="tagline">Business Analytics Student | Data Analyst Focused on Python, SQL, and Data-Driven Insights</p>
+          <div class="hero-links">
+            <a href="https://www.linkedin.com/in/christopher-j-willcutt" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+            <a href="https://github.com/Cjwillcutt/3300-landing-page" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I am a Business Analytics and Information Systems student at the University of Iowa, graduating in May 2026, and a Fall 2025 Dean's List honoree. I am actively pursuing data analyst and business analyst roles where I can apply analytical thinking to solve real business problems.
+      </p>
+      <p>
+        I enjoy analyzing data, building predictive models, and applying analytics to areas like sports and business to drive insights and decision-making.
+      </p>
+      <p>
+        I am primarily targeting opportunities in Chicago or hybrid roles in the Midwest, where employers are looking for candidates who can turn raw data into actionable recommendations.
+      </p>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <div class="skill-group">
+        <h3>Tools &amp; Technologies</h3>
+        <ul class="skill-list" aria-label="Tools and Technologies">
+          <li class="skill-badge">Python</li>
+          <li class="skill-badge">SQL</li>
+          <li class="skill-badge">Excel</li>
+          <li class="skill-badge">Oracle APEX</li>
+          <li class="skill-badge">Access</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Data Visualization</h3>
+        <ul class="skill-list" aria-label="Data Visualization tools">
+          <li class="skill-badge">Power BI</li>
+          <li class="skill-badge">Tableau</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3>Analytical Techniques</h3>
+        <ul class="skill-list" aria-label="Analytical Techniques">
+          <li class="skill-badge">Regression Analysis</li>
+          <li class="skill-badge">Forecasting</li>
+          <li class="skill-badge">Time Series</li>
+          <li class="skill-badge">Hypothesis Testing</li>
+          <li class="skill-badge">Segmentation</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>Which Statistics Best Predict MLB Team Winning Percentage (2015–2018)</h3>
+          <p>
+            Cleaned, transformed, and analyzed a Kaggle dataset of 120 MLB teams using Excel to evaluate 10 key performance metrics. Built multiple regression models with backward selection, maintaining a strong adjusted R² while statistically validating predictors of team success. Conducted residual analysis and multicollinearity testing (ANOVA, correlation matrices) to ensure model reliability and interpretability.
+          </p>
+          <ul class="project-tags" aria-label="Technologies used">
+            <li>Excel</li>
+            <li>Regression Analysis</li>
+            <li>ANOVA</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Major League Baseball Season Analysis (2014–2018)</h3>
+          <p>
+            Designed and implemented a normalized relational database in Oracle APEX with four tables (Team Performance, Batting, Pitching, Fielding) to manage 350+ team-season records. Developed advanced SQL queries using JOIN, CASE, and INTERSECT to evaluate relationships between payroll, WAR, pitching/fielding efficiency, and winning percentage. Built interactive reports and visualizations to highlight performance correlations for both analysts and general audiences.
+          </p>
+          <ul class="project-tags" aria-label="Technologies used">
+            <li>Oracle APEX</li>
+            <li>SQL</li>
+            <li>Data Visualization</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <h3>Car Value Analysis Using Web Scraping (Python)</h3>
+          <p>
+            Used Python to scrape live car listing data from the web and performed a structured analysis to identify the key factors that drive vehicle resale value. Cleaned and processed raw data to surface pricing trends and value drivers across make, model, mileage, and age.
+          </p>
+          <ul class="project-tags" aria-label="Technologies used">
+            <li>Python</li>
+            <li>Web Scraping</li>
+            <li>Data Analysis</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-heading">
+      <h2 id="experience-heading">Experience</h2>
+
+      <article class="experience-item">
+        <div class="experience-header">
+          <div>
+            <h3>Lead Dock Attendant</h3>
+            <p class="experience-org">Navy Pier Marina — Chicago, IL</p>
+          </div>
+          <p class="experience-date">May 2025 – August 2025</p>
+        </div>
+        <ul>
+          <li>Used marina management software to optimize boat slip assignments, applying logistics and data analysis to maximize space utilization and streamline dock operations.</li>
+          <li>Led coworkers by delegating tasks and resolving recurring boater issues, ensuring efficient dock operations and customer satisfaction.</li>
+        </ul>
+      </article>
+
+      <article class="experience-item">
+        <div class="experience-header">
+          <div>
+            <h3>Camp Counselor</h3>
+            <p class="experience-org">KE Camps — Itasca, IL</p>
+          </div>
+          <p class="experience-date">June 2024 – August 2024</p>
+        </div>
+        <ul>
+          <li>Developed daily schedules and activity plans, applying structured planning and time management.</li>
+          <li>Led groups while communicating schedules and updates to campers and staff to strengthen leadership.</li>
+        </ul>
+      </article>
+
+      <article class="experience-item">
+        <div class="experience-header">
+          <div>
+            <h3>Dock Attendant</h3>
+            <p class="experience-org">Chicago Harbors — Chicago, IL</p>
+          </div>
+          <p class="experience-date">June 2022 – August 2022 &amp; June 2023 – August 2023</p>
+        </div>
+        <ul>
+          <li>Maintained logs of boat arrivals, departures, and customer transactions, reinforcing data tracking practices.</li>
+          <li>Used point-of-sale systems and digital logs to strengthen data accuracy and transactional efficiency.</li>
+        </ul>
+      </article>
+
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>I am actively looking for data analyst and business analyst roles. Feel free to reach out — I would love to connect.</p>
+      <ul class="contact-list">
+        <li>
+          <a href="https://www.linkedin.com/in/christopher-j-willcutt" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/christopher-j-willcutt</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:Chrisjwillcutt@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">Chrisjwillcutt@gmail.com</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Cjwillcutt/3300-landing-page" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/Cjwillcutt</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Chris Willcutt. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
